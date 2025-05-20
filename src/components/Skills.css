@@ -1,0 +1,104 @@
+.hero {
+  background-color: #3D3D3D;
+  padding: 7em;
+  color: white;
+}
+.hero .skills {
+  text-align: center;
+}
+.hero .skills h1 {
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  font-size: 4em;
+  text-shadow: 7px 7px 5px #20211E;
+}
+.hero .skills p {
+  width: 74em;
+  padding-left: 0em;
+  padding-top: 2em;
+}
+.hero .container-two {
+  padding: 3.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .container-two .focus-section h2 {
+  font-size: 1.3em;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  padding-right: 15em;
+  padding-left: 1.8em;
+}
+.hero .container-two .focus-section hr {
+  border: none;
+  border-bottom: 0.2rem solid white;
+  width: 13em;
+}
+.hero .container-two .focus-section ul {
+  list-style: none;
+  padding: 0;
+}
+.hero .container-two .focus-section li {
+  margin: 0.9rem 0;
+  font-size: 1.2rem;
+  padding-left: 1em;
+}
+.hero .bars .progress-wrapper {
+  padding: 20px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-sizing: border-box;
+}
+.hero .bars .progress-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.hero .bars .label {
+  background-color: #8c8881;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  white-space: nowrap;
+  min-width: 100px;
+}
+.hero .bars .progress-bar {
+  flex-grow: 1;
+  background-color: white;
+  height: 44px;
+  position: relative;
+}
+.hero .bars .progress-fill {
+  background-color: #E0DEDA;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hero .bars .html-fill {
+  width: 95%;
+}
+.hero .bars .css-fill {
+  width: 95%;
+}
+.hero .bars .js-fill {
+  width: 85%;
+}
+.hero .bars .react-fill {
+  width: 85%;
+}
+.hero .bars .ps-fill {
+  width: 95%;
+}
+.hero .bars .xd-fill {
+  width: 85%;
+}
+.hero .bars .node-fill {
+  width: 70%;
+}
+.hero .bars .wp-fill {
+  width: 50%;
+}

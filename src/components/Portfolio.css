@@ -1,0 +1,47 @@
+.portfolio {
+  padding: 5em;
+}
+.portfolio h1 {
+  font-family: "EB Garamond", serif;
+  font-size: 4.3em;
+  color: #20211E;
+  text-shadow: 7px 7px 5px #bebebb;
+  padding-bottom: 2em;
+}
+.portfolio .services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.portfolio .services .service-card {
+  flex: 0 1 calc(30% - 30px);
+  background-color: #99938b;
+  color: white;
+  height: 11em;
+  text-align: center;
+  padding: 70px 30px;
+  border-radius: 6px;
+  box-shadow: 7px 7px 5px #bebebb;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+.portfolio .services .service-card:hover {
+  transform: translateY(-5px);
+}
+.portfolio .services .service-card::after {
+  content: "";
+  display: block;
+  width: 7em;
+  height: 2px;
+  background: white;
+  margin: 12px auto 0;
+}
+.portfolio .services .service-card:nth-child(n+4)::after {
+  display: none;
+}
+.portfolio .services .service-card.dark {
+  background-color: #3f3d3c;
+}

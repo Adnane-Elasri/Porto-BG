@@ -1,0 +1,57 @@
+.foot {
+  background-color: #14130D;
+  color: white;
+  padding: 3em 5em;
+}
+.foot h1 {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 2em;
+}
+.foot .footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.foot .footer-row .mail {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.foot .footer-row .mail .copyright {
+  text-align: right;
+  font-size: 0.9em;
+  color: white;
+  margin-top: 1em;
+  padding-right: 1em;
+}
+.foot .footer-row .mail p {
+  margin: 0;
+}
+.foot .footer-row .contact-me button {
+  background-color: #14130D;
+  color: white;
+  border: 1px solid white;
+  padding: 0.5em 1em;
+  font-size: 1em;
+}
+.foot .footer-row .footer-end {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: auto;
+}
+.foot .footer-row .footer-end .socials-foot {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 0.5em;
+}
+.foot .footer-row .footer-end .copyright {
+  font-size: 0.9em;
+  color: white;
+  margin: 0;
+}
+.foot .footer-row .footer-end img {
+  display: inline-block;
+}/*# sourceMappingURL=style.css.map */

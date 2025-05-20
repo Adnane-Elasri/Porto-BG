@@ -1,0 +1,26 @@
+.about-me {
+  padding: 6em;
+}
+.about-me h1 {
+  float: left;
+  font-size: 4.5em;
+  font-family: "EB Garamond", serif;
+  color: #20211E;
+  text-shadow: 7px 7px 5px #bebebb;
+}
+.about-me p {
+  width: em;
+  padding-left: 25em;
+  color: #7A7B7B;
+}
+.about-me .btn-download {
+  text-align: center;
+  padding-right: 17em;
+  padding-top: 1.5em;
+}
+.about-me .btn-download #btn-down {
+  background-color: #3D3D3D;
+  color: white;
+  padding: 0.7em;
+}
+  

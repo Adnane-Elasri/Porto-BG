@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  button {
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
